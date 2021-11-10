@@ -44,7 +44,7 @@ def reg_t(l,p):
            print("Вы ввели .,:;!_*-+()/#¤%& ")
            c+=1
     correct=a+b+c
-    if correct >3 and a or b or c !=0 :
+    if correct >3 and a and b and c !=0 :
         print("password correct")
         p.append(pass3)
         print("added")
